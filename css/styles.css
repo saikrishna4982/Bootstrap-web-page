@@ -1,0 +1,37 @@
+.collapse .navbar-nav .nav-item .nav-link{
+	color: white;
+	font-size: 20px;
+	margin:5px;
+}
+.form-inline .btn-outline-success{
+	color: white;
+	border:1.5px solid black;
+}
+.jumbotron{
+	margin-top: 70px;
+	padding: 30px;
+}
+.collapse .navbar-nav .active{
+  background-color: black;
+  font-weight:bold;
+}
+
+footer{
+	padding: 10px;
+	color: white;
+	background: blue;
+	text-align: center;
+	margin-top: 40px;
+}
+@media screen and (max-width: 600px) {
+  .jumbotron .lead{
+  	float: none;
+  	overflow: hidden;
+  	text-align: center;
+  }
+  .Courses{
+  	float: none;
+  	text-align: center;
+  	size: 100%;
+  }
+}
